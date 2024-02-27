@@ -41,7 +41,7 @@ def user(name):
 def page_not_found(e):
     render_template("404.html"), 404
 
-# server error
+# server error dfad
 @app.errorhandler(500)
 def page_not_found(e):
     render_template("500.html"), 500
